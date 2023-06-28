@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    font-size: 14px;
+}
+
+p {
+    color: #757575;
+    line-height: 24px;
+}
+
+.team-section {
+    font-size: 16px;
+}
+
+.top-links {
+    text-decoration: none;
+    color: #212121;
+    font-weight: bold;
+}
+
+.top-links:focus {
+    color: #2196F3;
+}
+
+.top-links:hover {
+    text-decoration: underline;
+    text-decoration-color: #2196F3;
+}
+
+.about-us-section h1 {
+    color: #FFFFFF;
+}
+
+.about-us-section button {
+    height: 50px;
+    width: 200px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
