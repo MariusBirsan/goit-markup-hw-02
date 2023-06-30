@@ -1,40 +1,148 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #212121;
-    font-size: 14px;
+:root {
+  --text-font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
+  --heading-color: #212121;
+  --text-color: #757575;
+  --link-color: #2196f3;
+  --backround-text-color: #fff;
+}
+
+.about-section,
+footer {
+  background-color: #2f303a;
+}
+
+header a,
+footer a {
+  text-decoration: none;
+  font-family: var(--text-font-family);
+  color: var(--heading-color);
+  font-size: 0.875em;
+}
+
+header a {
+  font-weight: 500;
+}
+
+footer a {
+  font-weight: 400;
+}
+
+header a:hover,
+header a:focus {
+  text-decoration: underline;
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 0.125em;
+}
+
+.active {
+  color: var(--link-color);
+}
+
+.top-mail,
+.top-phone {
+  color: var(--text-color);
+}
+
+.logo {
+  font-family: var(--logo-font-family);
+  font-weight: 700;
+  font-size: 1.625em;
+}
+
+.top {
+  color: var(--heading-color);
+}
+
+.logo span {
+  color: var(--link-color);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--text-font-family);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1em;
 }
 
 p {
-    color: #757575;
-    line-height: 24px;
+  color: var(--text-color);
+  line-height: 1.5em;
+  font-weight: 400;
+  font-size: 0.875em;
 }
 
-.team-section {
-    font-size: 16px;
+ul {
+  list-style-type: none;
 }
 
-.top-links {
-    text-decoration: none;
-    color: #212121;
-    font-weight: bold;
+.about-section h1 {
+  font-size: 2.75em;
+  color: var(--backround-text-color);
 }
 
-.top-links:focus {
-    color: #2196F3;
+.about-section button {
+  width: 12.5em;
+  height: 3.125em;
+  background-color: var(--link-color);
+  color: var(--backround-text-color);
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 0.25em;
+  border-width: 0;
 }
 
-.top-links:hover {
-    text-decoration: underline;
-    text-decoration-color: #2196F3;
+.filter {
+  border-radius: 0.25em;
+  height: 2.375em;
+  background-color: #f5f4fa;
+  border-width: 0;
 }
 
-.about-us-section h1 {
-    color: #FFFFFF;
+.first {
+  width: 4em;
+  color: var(--backround-text-color);
+  background-color: var(--link-color);
 }
 
-.about-us-section button {
-    height: 50px;
-    width: 200px;
-    background-color: #2196F3;
-    color: #FFFFFF;
+.second {
+  width: 7.5em;
+}
+
+.third {
+  width: 5.1875em;
+}
+
+.forth {
+  width: 6em;
+}
+
+.fifth {
+  width: 7.5625em;
+}
+
+.activities-section {
+  font-size: 0.875em;
+}
+
+address {
+  font-size: 0.875em;
+  color: var(--backround-text-color);
+}
+
+.bottom-mail,
+.bottom-phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.bottom.logo {
+  color: var(--backround-text-color);
 }
